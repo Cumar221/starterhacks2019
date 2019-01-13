@@ -24,7 +24,7 @@
 		B00FA55F21EBBD110027C100 /* Survey.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Survey.storyboard; sourceTree = "<group>"; };
 		B00FA56221EBC9570027C100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00FA56421EBC9B10027C100 /* chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = chat.storyboard; sourceTree = "<group>"; };
-		B02F791B21EAA583005D1E31 /* starterhacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starterhacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02F791B21EAA583005D1E31 /* Wellthy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wellthy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02F791E21EAA583005D1E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B02F792021EAA583005D1E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B02F792321EAA583005D1E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		B02F791C21EAA583005D1E31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B02F791B21EAA583005D1E31 /* starterhacks.app */,
+				B02F791B21EAA583005D1E31 /* Wellthy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B02F791A21EAA583005D1E31 /* starterhacks */ = {
+		B02F791A21EAA583005D1E31 /* Wellthy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B02F792D21EAA586005D1E31 /* Build configuration list for PBXNativeTarget "starterhacks" */;
+			buildConfigurationList = B02F792D21EAA586005D1E31 /* Build configuration list for PBXNativeTarget "Wellthy" */;
 			buildPhases = (
 				B02F791721EAA583005D1E31 /* Sources */,
 				B02F791821EAA583005D1E31 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = starterhacks;
+			name = Wellthy;
 			productName = starterhacks;
-			productReference = B02F791B21EAA583005D1E31 /* starterhacks.app */;
+			productReference = B02F791B21EAA583005D1E31 /* Wellthy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B02F791621EAA583005D1E31 /* Build configuration list for PBXProject "starterhacks" */;
+			buildConfigurationList = B02F791621EAA583005D1E31 /* Build configuration list for PBXProject "Wellthy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B02F791A21EAA583005D1E31 /* starterhacks */,
+				B02F791A21EAA583005D1E31 /* Wellthy */,
 			);
 		};
 /* End PBXProject section */
@@ -337,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B02F791621EAA583005D1E31 /* Build configuration list for PBXProject "starterhacks" */ = {
+		B02F791621EAA583005D1E31 /* Build configuration list for PBXProject "Wellthy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B02F792B21EAA586005D1E31 /* Debug */,
@@ -346,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B02F792D21EAA586005D1E31 /* Build configuration list for PBXNativeTarget "starterhacks" */ = {
+		B02F792D21EAA586005D1E31 /* Build configuration list for PBXNativeTarget "Wellthy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B02F792E21EAA586005D1E31 /* Debug */,

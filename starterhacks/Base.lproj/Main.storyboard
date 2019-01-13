@@ -413,7 +413,7 @@
         <scene sceneID="QHv-ZS-FcQ">
             <objects>
                 <viewControllerPlaceholder storyboardName="chat" id="nhW-sJ-5hY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="V9e-N3-ThR"/>
+                    <tabBarItem key="tabBarItem" title="" id="V9e-N3-ThR"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TWw-oE-sVX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

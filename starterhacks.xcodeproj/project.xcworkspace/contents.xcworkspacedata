@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:starterhacks.xcodeproj">
+      location = "group:/Users/cumaryusuf/Desktop/starterhacks/starterhacks/Assets.xcassets">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

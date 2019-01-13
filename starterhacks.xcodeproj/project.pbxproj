@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00FA55E21EBAED90027C100 /* Dash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00FA55D21EBAED90027C100 /* Dash.storyboard */; };
+		B00FA56021EBBD110027C100 /* Survey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00FA55F21EBBD110027C100 /* Survey.storyboard */; };
+		B00FA56321EBC9570027C100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00FA56221EBC9570027C100 /* Assets.xcassets */; };
+		B00FA56521EBC9B10027C100 /* chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00FA56421EBC9B10027C100 /* chat.storyboard */; };
 		B02F791F21EAA583005D1E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F791E21EAA583005D1E31 /* AppDelegate.swift */; };
 		B02F792121EAA583005D1E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F792021EAA583005D1E31 /* ViewController.swift */; };
 		B02F792421EAA583005D1E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02F792221EAA583005D1E31 /* Main.storyboard */; };
-		B02F792621EAA586005D1E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02F792521EAA586005D1E31 /* Assets.xcassets */; };
 		B02F792921EAA586005D1E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02F792721EAA586005D1E31 /* LaunchScreen.storyboard */; };
+		B02F797321EAFB86005D1E31 /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F797221EAFB86005D1E31 /* DataCollectionViewCell.swift */; };
+		B02F797521EB300F005D1E31 /* DrugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F797421EB300F005D1E31 /* DrugTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00FA55D21EBAED90027C100 /* Dash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dash.storyboard; sourceTree = "<group>"; };
+		B00FA55F21EBBD110027C100 /* Survey.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Survey.storyboard; sourceTree = "<group>"; };
+		B00FA56221EBC9570027C100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00FA56421EBC9B10027C100 /* chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = chat.storyboard; sourceTree = "<group>"; };
 		B02F791B21EAA583005D1E31 /* starterhacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starterhacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02F791E21EAA583005D1E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B02F792021EAA583005D1E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B02F792321EAA583005D1E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B02F792521EAA586005D1E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B02F792821EAA586005D1E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B02F792A21EAA586005D1E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02F797221EAFB86005D1E31 /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		B02F797421EB300F005D1E31 /* DrugTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 				B02F791E21EAA583005D1E31 /* AppDelegate.swift */,
 				B02F792021EAA583005D1E31 /* ViewController.swift */,
 				B02F792221EAA583005D1E31 /* Main.storyboard */,
-				B02F792521EAA586005D1E31 /* Assets.xcassets */,
+				B00FA55D21EBAED90027C100 /* Dash.storyboard */,
+				B00FA55F21EBBD110027C100 /* Survey.storyboard */,
+				B02F797421EB300F005D1E31 /* DrugTableViewController.swift */,
+				B02F797221EAFB86005D1E31 /* DataCollectionViewCell.swift */,
 				B02F792721EAA586005D1E31 /* LaunchScreen.storyboard */,
 				B02F792A21EAA586005D1E31 /* Info.plist */,
+				B00FA56221EBC9570027C100 /* Assets.xcassets */,
+				B00FA56421EBC9B10027C100 /* chat.storyboard */,
 			);
 			path = starterhacks;
 			sourceTree = "<group>";
@@ -123,8 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02F792921EAA586005D1E31 /* LaunchScreen.storyboard in Resources */,
-				B02F792621EAA586005D1E31 /* Assets.xcassets in Resources */,
+				B00FA56021EBBD110027C100 /* Survey.storyboard in Resources */,
 				B02F792421EAA583005D1E31 /* Main.storyboard in Resources */,
+				B00FA56521EBC9B10027C100 /* chat.storyboard in Resources */,
+				B00FA55E21EBAED90027C100 /* Dash.storyboard in Resources */,
+				B00FA56321EBC9570027C100 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02F792121EAA583005D1E31 /* ViewController.swift in Sources */,
+				B02F797521EB300F005D1E31 /* DrugTableViewController.swift in Sources */,
+				B02F797321EAFB86005D1E31 /* DataCollectionViewCell.swift in Sources */,
 				B02F791F21EAA583005D1E31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

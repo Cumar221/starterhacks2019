@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="starterhacks" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Wellthy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +65,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Hi!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WOa-pC-PGq">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Hi!" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOa-pC-PGq">
                                 <rect key="frame" x="64" y="244" width="198" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -132,13 +132,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome to the annoymous chat room, where you can talk with like minded people. Get started by saying &quot;Hi&quot;" translatesAutoresizingMaskIntoConstraints="NO" id="5ch-5W-JIX">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Welcome to the annoymous chat room, where you can talk with like minded people. Get started by saying &quot;Hi&quot;" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ch-5W-JIX">
                                 <rect key="frame" x="56" y="136" width="302" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Type in the box below to send your next message " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="y9I-QO-bJa">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Type in the box below to send your next message " textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9I-QO-bJa">
                                 <rect key="frame" x="134" y="597" width="232" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
